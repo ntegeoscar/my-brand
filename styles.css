@@ -11,6 +11,8 @@ body{
 .menu a{
     text-decoration: none;
     color: inherit;
+    display: flex;
+    justify-content: space-between;
 }
 .menu li{
     display: flex;
@@ -20,14 +22,7 @@ body{
     padding: 1em;
     
 }
-.menu ul{
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-    list-style: none;
-    padding: 1em;
-    
-}
+
 .mailandsun ul{
 list-style: none;
 }
@@ -81,4 +76,15 @@ h3{
     background-repeat: no-repeat;
     background-position:center ;
     padding-right: 20%;
+}
+.talkbtn{
+    width: 50%;
+    height:50%;
+    border-radius: 50%;
+    border-color: white;
+    border-style: solidcolor;
+    
+}.talk{
+    width: 10vh;
+    height: auto;
 }
