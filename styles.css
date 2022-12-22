@@ -78,13 +78,19 @@ h3{
     padding-right: 20%;
 }
 .talkbtn{
-    width: 50%;
-    height:50%;
+    width: 80px;
+    height:80px;
     border-radius: 50%;
     border-color: white;
-    border-style: solidcolor;
+    border-style: solid;
     
 }.talk{
     width: 10vh;
+    margin 7px
     height: auto;
+}
+.aboutcontainer{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: antiquewhite;
 }

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <title>MY-Brand</title>
     
 </head>
@@ -15,8 +17,8 @@
       
         <ul>
             <li>
-                <a href="#About">About</a>
-                <a href="#Work">Work</a>
+                <i class="fas fa-user"> </i><a href="#About">About</a>
+                <i class="fas fa-cloud" style="font-size:48px;color:rgb(255, 255, 255);"></i><a href="#Work">Work</a>
                 <a href="Services">Services</a>
                 <a href="Shelf">Shelf</a>
 
@@ -36,5 +38,47 @@
         <img src="images/profile-img.png" alt="">
         </div>
         <div class="talkbtn"><img class="talk" src="images/talkButton.png" alt=""></div>
+        <!-- About Section   -->
+        <section>
+            <div class="aboutcontainer">
+                <div> <img src="images/profile-img.png" alt=""></div>
+                <div class="abouticons">
+                    <p>
+                    <iconify-icon icon="mdi:users"></iconify-icon>People Person
+                    </p> 
+                    <p>
+                        <iconify-icon icon="ri:search-eye-line"></iconify-icon>Attention to Details
+                        </p>
+                        <p>
+                            <iconify-icon icon="material-symbols:more-time-rounded"></iconify-icon>Time Management
+                            </p>
+                     
+                </div>
+                <h1> About Me</h1>
+                <p>I am Ntege Oscar from Rwanda with a passion in tech and always eager to learn new technology and challenge my self to hard things. I value simple content structure, clean design patterns, and thoughtful interactions. I like to code things from scratch, and enjoy bringing ideas to life in the browser and help people meet their end results with a satisfaction</p>
+            <h2>Living, learning, & leveling up one day at a time</h2>
+            </div>
+        </section>
+        <section class="contact"> 
+       <div>
+        <h1>Get in Touch</h1>
+        <form>
+            <label for="fname">Your name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="email">Email: </label>  
+              <input type="email" id="email" name="email"/> <br/> 
+              <label for="service">Service You Would Like</label><br/>
+              <select name="services" id="serv">
+                <option value="webdevelopment">Web development</option>
+                <option value="webdesign">Web Design</option>
+                <option value="api">Api development</option>
+                <p><label for="message">Message:</label></p><br/>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br/>
+                <input type="submit" value="Submit">
+              </select> 
+            
+          </form>
+       </div>
+        </section>
 </body>
 </html>
